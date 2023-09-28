@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic Street Food</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,500&family=Nunito:wght@300;400;600;700;800&display=swap');
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--<link rel="stylesheet" href="/styles/custom.css"> -->
+    <link rel="shortcut icon" href="./src/images/logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <a href="index.html">
+            <img src="./src/images/logo.png" alt="Logo" class="navigation__logo">
+          </a>
+            <ul class="navigation__links">
+              <li class="nav-item">
+                <a href="#recipes" class="navigation__link" aria-current="page">Our recipes</a>
+              </li>
+              <li class="nav-item">
+                <a href="#location" class="navigation__link" aria-current="page">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about-us" class="navigation__link" aria-current="page">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" class="navigation__link" aria-current="page">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="homepage">
+      <h1 class="homepage__title">Find your organic street asian food !</h1>
+      <img src="./src/images/pedestrians-1853552_1920.jpg" alt="background" class="homepage__background"/>
+      <a href="#locations" class="homepage__link">See more</a>
+    </section> 
+    <section id="recipes" class="recipes">
+      <h2 class="recipes__title">Our recipes</h2>
+      <div class="container text-center">
+            <div class="row" id="recipeContainer"></div>
+        </div>
+      </div>
+    </section>
+    <section id="location" class="location">
+      <div class="row">
+        <div class="location__maps">
+          <h2 class="location__title">Find your organic street food here</h2>
+          <span class="location__search">Search by address or point of interest :</span>
+            <div class="form-outline">
+              <input
+                type="text" 
+                id="form12" 
+                class="form-control"
+                placeholder="Type address ere"
+              />
+              <div id="map">
+                <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80725.51176511246!2d-73.98672798993631!3d40.76820806558945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20%C3%89tat%20de%20New%20York%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1695632591238!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class="about">
+        <div class="about__container">
+          <p class="about__title">About us</p>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="pb-3">
+                <p>Welcome to our world of sustainable street food – we are Bastien, Jules, and Arthur, the creative minds behind this exciting venture. Our journey began with a simple idea: to bring the flavors of the world to the bustling streets of our hometown, New York City, all while prioritizing organic and sustainable ingredients. Our inspiration came from a life-changing road trip through the vibrant and diverse countries of Asia. The rich tapestry of flavors and the communal spirit of street food vendors left an indelible mark on us. It was during those unforgettable moments that we decided to introduce a new culinary experience to our beloved city.</p>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="about__img" src="./src/images/man-5524488_1920.jpg" alt="street">
+                </div>
+                <div class="col-md-6">
+                  <p>Today, we proudly operate twelve street food throughout Manhattan, each offering a unique and delicious blend of organic street food. From mouthwatering bánh mì to savory yakitori, we're on a mission to redefine street food, one bite at a time. But our journey doesn't stop here. Our dream is to spread the goodness beyond the Big Apple. We have our sights set on San Francisco and Seattle, where we hope to introduce our sustainable street food culture. Beyond the borders of the United States, we envision sharing our passion with the food-loving communities of Montreal and Vancouver in Canada. At our core, we are more than just entrepreneurs – we are food enthusiasts dedicated to creating a positive impact on our environment and your taste buds. Join us on this culinary adventure, and together, let's savor the flavors of the world, one eco-friendly bite at a time. At our core, we are more than just entrepreneurs – we are food enthusiasts dedicated to creating a positive impact on our environment and your taste buds. Join us on this culinary adventure, and together, let's savor the flavors of the world, one eco-friendly bite at a time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="about__sign">Sincerely, Bastien, Jules, and Arthur <br/> Co-Founders, organic Street Food</p>
+        </div>  
+    </section>  
+    <section>
+      <div class="contact">
+        <button type="button" class="btn btn-success">
+          <a href="./contact.html" class="link-btn">
+            Contact
+          </a>
+        </button>
+        <button type="button" class="btn btn-success">
+          <a href="./contact.html" class="link-btn">
+            Join us
+          </a>
+        </button>
+      </div>
+    </section> 
+    <footer>
+      <section class="footer">
+        <div class="footer__content">
+          <p class="footer__copyright">@organicSF</p>
+          <p class="footer__mentions">Mentions Légales</p>
+          <a href="./contact.html" class="footer__link">Join us</a>
+        </div>
+        <div class="footer__icons">
+          <img src="/src/images/instagram.png" alt="instagram" class="icon">
+          <img src="/src/images/linkedin.png" alt="linkedin" class="icon">
+          <img src="/src/images/twitter.png" alt="twitter" class="icon">
+        </div>
+      </section>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

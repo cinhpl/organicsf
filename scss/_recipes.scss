@@ -1,0 +1,36 @@
+.recipes {
+    border-top: solid 1px $primary-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vw;
+    &__title {
+        font-family: $fontfamily2;
+        font-size: 4vw;
+        justify-content: center;
+        display: flex;
+        font-weight: 700;
+        color: $primary-color;
+        margin-top: 2vh;
+    }
+    &__img {
+        width: 30%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+}
+
+.col-md {
+    margin: 10px;
+    border-radius: 10px;
+    font-family: $fontfamily2;
+    font-size: 1.2em;
+}
+
+.col-md img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 30vh;
+    height: 20vh;
+}

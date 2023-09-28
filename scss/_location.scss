@@ -1,0 +1,45 @@
+.location {
+    border-top: solid 1px $primary-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+    padding: 2vw;
+    &__maps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        font-family: $fontfamily2;
+        font-size: 3vw;
+        justify-content: center;
+        display: flex;
+        font-weight: 700;
+        color: $primary-color;
+        margin: auto;
+    }
+    &__search {
+        font-family: $fontfamily2;
+        font-size: 2vw;
+        margin: 1vw;
+        color: $primary-color;
+    }
+    &__map {
+        border-radius: 0 0 15px 15px;
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+.form-outline {
+    box-shadow: 5px 5px 8px $bg-color;
+    border-radius: 15px;
+}
+
+.form-control {
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.6vw;
+
+}

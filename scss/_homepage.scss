@@ -1,0 +1,61 @@
+.homepage {
+    position: relative;
+    background: linear-gradient(to right, $primary-color, transparent 68%,  white);
+    display: flex;
+    align-items: center;
+    &__title {
+        font-size: 7vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $secondary-color;
+        font-family: $fontfamily1;
+        position: absolute;
+        left: 30px;
+        z-index: 1;
+        opacity: 60%;
+        width: 30%;
+        @media (max-width: 768px){
+            left: 2%;
+        }
+    }
+    &__background {
+        object-fit: cover;
+        z-index: 0;
+        opacity: 30%;
+        width: 100%;
+    }
+    &__link {
+        z-index: 1;
+        position: absolute;
+        left: 30px;
+        bottom: 70px;
+        font-size: 4vw;
+        font-weight: 600;
+        color: $secondary-color;
+        font-family: $fontfamily1;
+        opacity: 70%;
+        @media (max-width: 768px){
+            left: 2%;
+            bottom: 3%;
+        }
+    }
+   
+}
+
+.contact {
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    padding: 2vw 4vh;
+    margin: 20px;
+}
+
+.link-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: $fontfamily1;
+}

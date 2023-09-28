@@ -1,0 +1,25 @@
+
+    .navigation {
+        display: flex;
+        background-color: $bg-color;
+        justify-content: space-between;
+            &__logo {
+            width: 5vw;
+            object-fit: cover;
+            margin-left: 2vw;
+            }
+            &__links {
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                margin-right: 4vw;
+            }
+            &__link {
+                font-family: $fontfamily1;
+                font-size: 1.8vw;
+                color: black;
+                margin: 2vw;
+                text-decoration: none;
+                font-weight: 500;
+            }
+        }  
